@@ -267,10 +267,16 @@
 .contact-section{
     background: #ecf4fb;
     width: 100%;
-    height: 66vh;
+    height: 80vh;
+   
 }
 .contact-section h1{
     padding:10px 0px;
+    font-size: 50px;
+}
+.contact-container{
+    display: flex;
+    float: left;
 }
 .contact-info{
     
@@ -304,6 +310,30 @@
 .input-box button:hover{
    cursor: pointer;
 }
+button{
+    padding:7px 15px;
+    font-size: 20px;
+    background-color: rgba(245, 209, 8, 0.986);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 9px;
+    margin-top:7px;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: red;
+    color:white;
+    transition: 0.5s;
+}
+
+.googlemap iframe{
+    height:350px;
+    width:500px;
+    padding-left: 230px;
+   
+}
 
 
 
@@ -313,6 +343,7 @@
 
 .container-fluid{
     max-width: 1120px;
+    height: 220px;
     margin:auto;
 }
 .row{
